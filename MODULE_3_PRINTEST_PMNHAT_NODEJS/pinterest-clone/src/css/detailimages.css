@@ -1,0 +1,156 @@
+.aboutComments {
+  flex: 1;
+}
+
+.nonebreakspace {
+  flex: 1;
+}
+.addSpacing {
+  margin-top: 20px;
+}
+.myComment {
+  display: flex;
+}
+
+.owner {
+  display: flex;
+}
+.owner .avatarOwner {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.owner .detailOwner {
+  flex: 1;
+  clear: both;
+}
+.owner .detailOwner .userName {
+  font-weight: bold;
+  font-size: large;
+}
+.owner .subcriberOwner {
+  margin-right: 20px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 0 10px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  float: right;
+}
+.owner .subcriberOwnerxxx {
+  background-color: rgb(41, 41, 41);
+  margin-right: 20px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 0 10px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  float: right;
+}
+
+.owner .subcriberOwner:hover {
+  background-color: brown;
+}
+.owner .subcriberOwnerxxx:hover {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+
+.countComment {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.countComment .notify {
+  width: 80%;
+}
+
+.myComment {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.myComment .myAvartar {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.myComment .inputComment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.myComment .inputComment input {
+  height: 60px;
+  width: 80%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.relateContainer {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  justify-content: center;
+}
+.relateContainer .containerOfRelate {
+  column-gap: 1px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: white;
+  overflow-y: auto hidden;
+}
+
+.cmtInDtImg {
+  max-height: 570px;
+  overflow-y: scroll;
+}
+.cmtWrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.cmtWrapper .avttWrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.cmtWrapper .avttWrapper img {
+  width: 50px;
+  height: 50px;
+}
+.cmtWrapper .dtlCmt {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.cmtWrapper .dtlCmt .nACmt {
+  display: flex;
+}
+
+.qttHeartAqttCmt {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
